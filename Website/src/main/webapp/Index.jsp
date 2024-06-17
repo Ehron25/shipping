@@ -35,6 +35,7 @@
       </ul>
     </li>
     <li><a href='http://'>Contact Us</a></li>
+    <li><a href='Log In.jsp'>Log In</a></li>
   </ul>
 </nav>
   <!-- end of navbar -->

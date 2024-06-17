@@ -72,7 +72,7 @@ body {
     display: block;
     color: inherit;
     text-decoration: none;
-    width: 100%;	
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -93,16 +93,16 @@ body {
 </head>
 
 <body>
-    <div class="login-container">
+    <div class="login-container">    
         <h2>Login</h2>
-        <form action="Log In.jsp" method="post">        
+        <form action="LogIn.jsp" method="post">        
             <label for="username">Email Address:</label> 
             <input type="text" id="username" name="username" required> 
             <label for="password">Password:</label> 
             <input type="password" id="password" name="password" required>
             <div class="button-container">
-                <button class="submit" type="submit">Login</button> 
-                <button class="submit" type="button"><a href="Registration.jsp">Register</a></button>
+                <button class="submit" type="button" onclick="window.location.href='Index.jsp'">Login</button> 
+                <button class="submit" type="button" onclick="window.location.href='Registration.jsp'">Register</button>
             </div>
         </form>
     </div>

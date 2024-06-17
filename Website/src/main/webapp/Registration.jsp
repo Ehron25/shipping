@@ -118,7 +118,7 @@ body {
 }
 
 .login-container .register-link {
-	display: white;
+	display: block;
 	text-align: center;
 	margin-top: 10px;
 	color: #555;
